@@ -1,0 +1,22 @@
+访问index.jsp页面
+index.jsp页面发送出查询员工列表请求
+EmptalControllerl来接受请求，查出员工数据
+来到list.jsp页面进行展示
+
+查询-ajax：
+	1. index.jsp页面直接发送ajax请求进行员工分页数据查询 
+	2. 服务器将查出的数据以json的形式返回给浏览器
+	3. 浏览器收到js字符串，可以使用js对json进行解析，使用js通过dom增删改查 改变页面
+	4. 返回json，实现客户端的无关性
+#######################################
+新增逻辑
+1. 在index.html页面点击新增弹出对话框
+2. 查询数据库部门列表显示在对话框中
+3. 用户输入数据 进行校验
+4. 完成保存
+
+URL：
+查询GET	/emp/{id} 
+保存POST	/emp
+修改PUT 	/emp/{id}
+删除DELETE  /emp/{id}

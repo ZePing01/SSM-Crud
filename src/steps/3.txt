@@ -1,0 +1,8 @@
+技术点：
+	基础框架-ssm：springMVC + spring + MyBatis
+	数据库：MySQL
+	前端框架：bootstrap
+	项目的依赖管理：Maven
+	分页：pagehelper
+	逆向工程：MyBatis Generator
+	

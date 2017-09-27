@@ -1,0 +1,6 @@
+SSM-CRUD:
+	ssm：springMVC + spring + MyBatis
+	create(创建)
+	retrieve(查询)
+	update(更新)
+	delete(删除)

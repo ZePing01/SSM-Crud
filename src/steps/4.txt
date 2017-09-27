@@ -1,0 +1,14 @@
+基础环境搭建：
+	1. 创建一个maven工程
+	2. 引入项目依赖jar包
+		spring
+		springMVC
+		MyBatis
+		数据库驱动
+		其他：(jstl,servlet-api,junit)
+		maven re - 添加jar
+	3. 引入bootstrap前端框架	
+	4. 编写ssm整合d额关键配置文件
+		web.xml,spring,springmvc,mybatis
+		使用mybatis逆向工程生成对应的bean以及mapper
+	5. 测试mapper	
